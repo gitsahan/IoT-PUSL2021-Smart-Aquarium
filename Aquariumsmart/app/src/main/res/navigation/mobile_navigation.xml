@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sensor">
+
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="com.example.aquariumsmart.ui.sensors.sensorFragment"
+        android:label="@string/menu_senor"
+        tools:layout="@layout/fragment_senor" />
+
+    <fragment
+        android:id="@+id/nav_Actuators"
+        android:name="com.example.aquariumsmart.ui.Actuators.ActuatorFragment"
+        android:label="@string/menu_Actuators"
+        tools:layout="@layout/fragment_actustor" />
+
+    <fragment
+        android:id="@+id/nav_Camera"
+        android:name="com.example.aquariumsmart.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camer" />
+    <activity
+        android:id="@+id/nav_RGB"
+        android:name="com.example.aquariumsmart.ui.rgb.ColorActivity"
+        android:label="@string/menu_RGB"
+        tools:layout="@layout/activity_color3" />
+    <activity
+        android:id="@+id/nav_Logout"
+        android:name="com.example.aquariumsmart.ui.loging.logActivity"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/activity_logou" />
+</navigation>

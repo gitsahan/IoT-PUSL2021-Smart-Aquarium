@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537106188737",
+    "project_id": "aquarium-smart-426e2",
+    "storage_bucket": "aquarium-smart-426e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537106188737:android:207d8ded1b732297ff4740",
+        "android_client_info": {
+          "package_name": "com.example.aquariumsmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537106188737-2ft8sl5tbv9eik1tonrkin5lkcp65ahm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWwWgR7tRO9fHQ_F3qHJOKv7Ojk4KxPlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537106188737-2ft8sl5tbv9eik1tonrkin5lkcp65ahm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

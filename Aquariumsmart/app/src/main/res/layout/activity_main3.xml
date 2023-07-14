@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="246dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="SMART AQUARIUM "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="123dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_marginLeft="-145dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fishimage" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="57dp"
+        android:layout_marginRight="4pt"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="4pt"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="402dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/Email"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="4pt"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password1"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="43dp"
+        android:layout_marginRight="4pt"
+        android:text="SIGN UP" />
+
+    <TextView
+        android:id="@+id/banna"
+        android:layout_width="225dp"
+        android:layout_height="44dp"
+       android:layout_below="@id/sign"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="58dp"
+        android:text="Already Register click here? " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-2dp"
+        android:text="REGISTER"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

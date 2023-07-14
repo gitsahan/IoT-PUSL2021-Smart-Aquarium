@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="246dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="0dp"
+        android:text="SMART AQUARIUM "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="226dp"
+        android:layout_height="137dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_marginLeft="-190dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fishimage" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4pt"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="10pt"
+        android:hint="Username"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_marginLeft="4pt"
+        android:layout_marginRight="4pt"
+        android:hint="Password"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_below="@id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4pt"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="10pt"
+        android:text="LOG IN"/>
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_below="@id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4pt"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="10pt"
+        android:text="SIGN UP"/>
+
+    <TextView
+        android:id="@+id/signlable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-44dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="SIGN IN"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+</RelativeLayout>
