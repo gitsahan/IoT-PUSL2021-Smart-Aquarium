@@ -5,6 +5,8 @@ Developers: Sahan K. Karunaratne, Kasun Amarasinghe, Dharani Pinsarani & Jayani 
 
 Type: Group Project.
 
+Year: 2022.
+
 Imporatnt languages, technologies & equipments used:
 Java, C++, Arduino Mega (2560), NodeMCU (ESP32), Temperature Sensor (DS18B20), Ultrasonic Sensor (HC-HR04), pH Sensor (E-201C), Arduino Water Pump (Roinco-R365), Arduino heater, LED Panel...
 
